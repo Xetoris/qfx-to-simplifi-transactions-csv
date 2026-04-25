@@ -1,0 +1,21 @@
+{
+  "name": "transaction-translator",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "run": "tsx src/index.ts"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/luxon": "3.7.1",
+    "@types/node": "24.12.2",
+    "fast-xml-parser": "5.7.1",
+    "luxon": "3.7.2",
+    "csv-parse": "6.1.0",
+    "csv-stringify": "6.6.0",
+    "tsx": "4.21.0",
+    "typescript": "6.0.3"
+  },
+  "private": true
+}
