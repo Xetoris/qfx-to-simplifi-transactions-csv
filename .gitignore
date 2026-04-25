@@ -9,3 +9,7 @@ yarn-error.log*
 .pnp.js
 
 .vscode/*
+
+# Experimental Files
+src/playground.ts
+src/diag.ts
