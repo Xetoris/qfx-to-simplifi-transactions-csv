@@ -33,7 +33,7 @@ function parseQFX(qfxContents: string): ActionResultWithOutput<QfxObject> {
     // Use the fix below to bypass conversion for that single tag.
     const stringOnlyTags = ['FITID'];
     const parser = new XMLParser({
-        tagValueProcessor: (tagName, val, jpath, hasAttributes, isLeafNode) =>
+        tagValueProcessor: (tagName, val, _jpath, _hasAttributes, _isLeafNode) =>
             stringOnlyTags.includes(tagName) ? null : val,
     });
     const parsedContent = parser.parse(standardizedContent);
